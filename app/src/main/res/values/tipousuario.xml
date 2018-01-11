@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipousu_array">
+        <item>-----------------SELECCIONAR-----------------</item>
+        <item>MUNICIPALIDAD</item>
+        <item>CONDUCTOR</item>
+    </string-array>
+</resources>

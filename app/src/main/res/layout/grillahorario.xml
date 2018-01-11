@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/LBLFECHA"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LBLCODHORARIO"
+        android:layout_toRightOf="@+id/imageView5"
+        android:paddingLeft="20dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/LBLCODHORARIO"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView5"
+        android:paddingLeft="20dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/LBLLUGAR"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/LBLFECHA"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/LBLLUGAR"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/iconohorario" />
+</RelativeLayout>

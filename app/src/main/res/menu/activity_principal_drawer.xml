@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="CONTROL">
+            <menu>
+                <item
+                    android:id="@+id/camionesregistrado"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="CAMIONES REGISTRADOS " />
+                <item
+                    android:id="@+id/horariomunipalidad"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="HORARIO GENERALES" />
+                <item
+                    android:id="@+id/conductores"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="CONDUCTORES" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

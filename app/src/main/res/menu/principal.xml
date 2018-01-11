@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Servicios"
+        android:orderInCategory="100"
+        android:title="Servicios"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Ajustes"
+        android:orderInCategory="100"
+        android:title="Ajustes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/membresia"
+        android:orderInCategory="100"
+        android:title="Estado Membresia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/CERRARSESION"
+        android:orderInCategory="100"
+        android:title="CERRAR SESION"
+        app:showAsAction="never" />
+</menu>

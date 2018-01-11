@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="CONTROL">
+            <menu>
+                <item
+                android:id="@+id/trabajo"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="TRABAJO" />
+                <item
+                    android:id="@+id/camionescercanos1"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="RUTAS A VIAJAR" />
+                <item
+                    android:id="@+id/horario1"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="HORARIO" />
+                <item
+                    android:id="@+id/lugar"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="LUGAR" />
+
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

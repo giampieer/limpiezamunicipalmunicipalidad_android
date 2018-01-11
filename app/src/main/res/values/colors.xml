@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695C
+    </color>
+    <color name="colornegro">#000000
+    </color>
+    <color name="colorPrimaryDark">#00695C
+    </color>
+    <color name="colorplomo">#37474F
+
+    </color>
+    <color name="color_verde">#01579B</color>
+    <color name="color_verdeDark">#01579B</color>
+    <color name="colorAccent">@color/color_verde</color>
+</resources>
